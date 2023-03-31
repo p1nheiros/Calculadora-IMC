@@ -1,0 +1,258 @@
+        @import url('https://fonts.cdnfonts.com/css/poppins');
+         :root {
+            --color-light-50: #f8fafc;
+            --color-dark-50: #797984;
+            --color-dark-100: #312d37;
+            --color-dark-900: #000;
+            --color-purple-50: #7c3aed;
+            --color-purple-100: #a855f7;
+            --color-purple-200: #bf46ef;
+            --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+        }
+        
+        * {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        #container {
+            height: 100vh;
+            width: 100%;
+            background: var(--color-gradient);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #imc_form {
+            color: var(--color-light-50);
+            background-color: var(--color-dark-100);
+            display: flex;
+            flex-direction: column;
+            padding: 30px 60px;
+            border-radius: 8px;
+            gap: 30px;
+            box-shadow: 5px 5px 8px rgba(0, 0, 0, 336);
+            height: fit-content;
+        }
+        
+        #imc_header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #imc_header h1 {
+            font-size: 40px;
+            position: relative;
+        }
+        
+        i {
+            font-size: 23px;
+        }
+        
+        #imc_header h1::before {
+            position: absolute;
+            content: '';
+            width: 27%;
+            background-color: var(--color-purple-50);
+            height: 4px;
+            bottom: 9px;
+            border-radius: 5px;
+        }
+        
+        #mode_icon {
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+        #inputs {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .input-box label {
+            font-size: 18px;
+            color: var(--color-light-50)
+        }
+        
+        .input-field {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 3px;
+            cursor: text;
+            border-bottom: 1px solid var(--color-purple-50);
+        }
+        
+        .input-field {
+            font-size: 18px;
+            color: var(--color-light-50)
+        }
+        
+        .input-field input {
+            color: var(--color-light-50);
+            border: none;
+            background-color: transparent;
+            width: 260px;
+            font-size: 18px;
+            padding: 0px 5px;
+        }
+        
+        .input-field input:focus {
+            outline: none;
+        }
+        
+        .btn_calc {
+            border: none;
+            margin-top: 20px;
+            background: var(--color-gradient);
+            color: var(--color-light-50);
+            padding: 7px;
+            font-size: 18px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        .btn_calc:hover {
+            transform: scale(1.05)
+        }
+        
+        .btn_calc:disabled:hover {
+            transform: none;
+        }
+        
+        #resultado {
+            display: none;
+            margin-top: 20px;
+            align-items: center;
+            width: 300px;
+            height: 150px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px black;
+            background: rgba(68, 68, 68, 0.185);
+            color: var(--color-light-50);
+            padding: 20px;
+            box-sizing: border-box;
+            user-select: none;
+        }
+        
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+        /* Estilos para telas com até 600px de largura */
+        
+        @media only screen and (max-width: 600px) {
+            #imc_form {
+                padding: 20px;
+            }
+            #imc_header h1 {
+                font-size: 28px;
+            }
+            #imc_header h1::before {
+                bottom: 6px;
+            }
+            #imc_header2 h1 {
+                font-size: 40px;
+            }
+            .input-field input {
+                width: 200px;
+            }
+            .btn_calc {
+                font-size: 16px;
+                padding: 5px;
+            }
+            #resultado {
+                height: 120px;
+                font-size: 16px;
+                padding: 10px;
+            }
+        }
+        /* Para telas menores que 768px de largura */
+        
+        @media (max-width: 767px) {
+            #imc_form {
+                padding: 20px;
+            }
+            #imc_header h1 {
+                font-size: 30px;
+            }
+            #imc_header2 h1 {
+                font-size: 40px;
+            }
+            .input-box label {
+                font-size: 16px;
+            }
+            .input-field input {
+                font-size: 16px;
+            }
+            .btn_calc {
+                font-size: 16px;
+            }
+            #resultado {
+                height: 110px;
+            }
+        }
+        /* Para telas entre 768px e 1023px de largura */
+        
+        @media (min-width: 768px) and (max-width: 1023px) {
+            #imc_form {
+                padding: 25px;
+            }
+            #imc_header h1 {
+                font-size: 35px;
+            }
+            #imc_header2 h1 {
+                font-size: 50px;
+            }
+            .input-box label {
+                font-size: 18px;
+            }
+            .input-field input {
+                font-size: 18px;
+            }
+            .btn_calc {
+                font-size: 18px;
+            }
+            #resultado {
+                height: 250px;
+            }
+        }
+        /* Para telas maiores que 1024px de largura */
+        
+        @media (min-width: 1024px) {
+            #imc_form {
+                padding: 30px 60px;
+            }
+            #imc_header h1 {
+                font-size: 40px;
+            }
+            #imc_header2 h1 {
+                font-size: 55px;
+            }
+            .input-box label {
+                font-size: 18px;
+            }
+            .input-field input {
+                font-size: 18px;
+            }
+            .btn_calc {
+                font-size: 18px;
+            }
+            #resultado {
+                width: 350px;
+                height: 80px;
+            }
+        }
