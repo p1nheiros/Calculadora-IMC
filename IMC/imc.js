@@ -20,14 +20,14 @@ function imc(event) {
         } else if (valorIMC < 30) {
             classificacao = 'levemente acima do peso.';
         } else if (valorIMC < 35) {
-            classificacao = 'com obesodade grau 1';
+            classificacao = 'com obesodade grau I.';
         } else if (valorIMC < 40) {
-            classificacao = 'com obesidade grau 2';
+            classificacao = 'com obesidade grau II.';
         } else {
-            classificacao = 'com obesidade grau 3. cuidado';
+            classificacao = 'com obesidade grau III. Cuidado!';
         }
 
-        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao},`;
+        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
         resultado.style.display = "flex"; // exibe a div de resultado
     } else {
         resultado.textContent = 'Preencha todos os campos!'
