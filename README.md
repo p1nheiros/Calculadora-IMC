@@ -1,48 +1,58 @@
-# ⚖️ Calculadora IMC
+<div align="center">
+  
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pinheiros.dev@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucas-p-5b1585265)
+  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@PinheirosDev)
+  [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/p1nheiros)
 
-> Calculadora IMC simples com uso do javascript puro. Esse foi um projeto simpls para a prática de JavaScript.
+  <br />
+  <br />
+
+  <h1 align="center">Calculadora IMC</h1>
+
+> Calculadora IMC simples com uso do JavaScript puro totalmente responsivo para todos os dispositivos.
 > 
 > Sobre o IMC: 
 > O índice de Massa Corporal (IMC), ou em inglês Body Mass Index (BMI) é uma das maneiras de saber se o seu peso está adequado à sua altura. Para calcular devemos dividir seu peso pela altura elevada ao quadrado.
 
-### Linguagens 👨‍🏫
 
-<code><img height="30" src="https://cdn-icons-png.flaticon.com/512/732/732212.png"></code>
-<code><img height="30" src="https://cdn-icons-png.flaticon.com/512/732/732190.png"></code>
-<code><img height="30" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"></code>
+  <a href="https://desafio-forms-registro.vercel.app/"><strong>➥ Visualizar Projeto</strong></a>
 
-### Ajustes e melhorias 🔧
+</div>
 
-✔️ O projeto foi concluído. 
+<br />
 
-## ☕ Como usar?
-Para usar o projeto, siga estas etapas:
+![calculadora-imc-banner-rep](https://github.com/p1nheiros/Calculadora-IMC/assets/124714182/ab6a146c-6c69-432f-8a63-bbece26f04c9)
 
+### 📋 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+* [Git](https://git-scm.com/downloads "Download Git") deve estar instalado em seu sistema operacional.
+
+### 📍 Executar localmente
+
+Para executar o repositório localmente, execute este comando no seu git bash:
+
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/p1nheiros/Calculadora-IMC.git
 ```
-<Baixe os arquivos e execute em um programa que tenha suporte para HTML5 e CSS3>
+
+Windows:
+
+```bash
+git clone https://github.com/p1nheiros/Calculadora-IMC.git
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
-## 📫 Contribuindo para o Projeto
 
-Para contribuir com o projeto, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-## 👨‍💻 Dev
-
-Desenvolvedor do projeto:
+### 👨‍💻 Desenvolvedor
 
 <table>
   <tr>
-    <td align="center">
+    <td>
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/124714182?v=4" width="100px;" alt="Lucas Pinheiro"/><br>
         <sub>
@@ -53,12 +63,12 @@ Desenvolvedor do projeto:
   </tr>
 </table>
 
-## 📝 Licença
+### ☎️ Contato
+
+Se você quiserentrar em contato comigo, pode me encontrar no [Gmail](mailto:pinheiros.dev@gmail.com).
+
+### 📝 Licença
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-## ⚖️ Política de segurança
-
-Para relatar vulnerabilidades de segurança para este repositório. Veja o arquivo [SEGURANÇA](SECURITY.md) para mais detalhes.
- 
 [⬆ Voltar ao topo](README.md)<br>
